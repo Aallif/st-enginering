@@ -1,0 +1,462 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 35px;
+    color: #07244b;
+    font-weight: 700;
+}
+
+p{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+img{
+    max-width: 100%;
+}
+
+h4{
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.logo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.bold{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+.container{
+    width: 1110px;
+}
+
+
+.banner{
+    background-image: url("../images/banner-bg.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.bancont{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bancont h1{
+    color: #ffffff;
+}
+
+.oprat{
+    padding-top: 82px;
+}
+
+.opratxtimg{
+    padding-top: 81px;
+}
+
+.linesubcont{
+    text-align: center;
+   
+}
+
+.linesubcont p {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+.line{
+    margin: auto;
+    width: 2px;
+    height: 24px;
+    background-color: #ffca00;
+}
+
+
+.cyber{
+    background-image: url("/assets/images/cyber-bg.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 120px;
+}
+
+.cyber p{
+    color: #ffffff;
+}
+
+.cyber h1{
+    color:#ffffff;
+}
+
+.cyber h4{
+    font-size: 14px;
+    color:#ffffff;
+    bottom: 22px;
+    padding-top: 11px;
+}
+
+
+.blue{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: #233b55;
+    margin: 0px 10px;
+    width: 210px;
+    /* opacity: 0.8; */
+    padding: 15px 18px;
+
+}
+
+.conimg img{
+    float: right;
+    padding-bottom: 29px;
+}
+.bluecard{
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.bluecard .line{
+    margin: 0px;
+    clear: both;   
+    /* clear both used for line and text  */
+}
+
+/* .bluecard .blue{
+    
+} */
+
+.oprat2 {
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+.oprat2 h4{
+    font-size: 35px;
+    font-weight: 400;
+    color: #07244b;
+}
+
+.oprat2 p{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.shield img{
+    padding-top: 61px;
+}
+
+.shield-txt{
+    padding-top: 123px;
+}
+
+/* .cenimg{
+    text-align: center;
+
+} */
+.num{
+    display: inline-block;
+    padding-top: 34px;
+    /* padding-left: 30px; */
+    /* padding-bottom: 36px; */
+}
+
+
+.brochutxt .num h1{
+    font-size: 28px;
+    font-weight: 400;
+    color: #dbd7d4;
+}
+hr{
+    margin: 0;
+    display: inline-block;
+    width: 41px;
+    height: 2px;
+    color: #dbd7d4;
+    opacity: 1;
+}
+
+.bropcont{
+    padding-left: 40px;
+    border: 1px solid;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: hidden;
+    color: #dbd7d4;
+
+}
+
+.brocont{
+    color: #07244b;
+}
+
+.brochutxt{
+    margin-top: 54px;
+}
+.brochutxt h1{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.col-md-4{
+    padding: 0px;
+}
+
+.brochuone{
+    margin-top: 112px;
+
+}
+
+.endsec{
+    margin-top: -111px;
+    padding-top: 154px;
+    padding-bottom: 70px;
+    width: 100%;
+    background-color: #07244b;
+}
+
+.endsec p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+.button{
+    text-align: center;
+    position: relative;
+}
+
+
+.endsec h1{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    color: #07244b;
+    top: 33%;
+    right:33%;
+
+}
+
+
+.inline{
+    display: inline;
+    padding: 10px;
+}
+
+.inlineb{
+    display: inline-block;
+}
+
+.footer{
+    margin-top: 134px;
+    font-size: 43px;
+    font-weight: 400;
+    text-align: center;
+    color: #07244b;
+    background-color: #e6e9ed;
+    padding-top: 66px;
+    padding-bottom: 74px;
+}
+
+/* responsive */
+
+@media (max-width:1200px){
+
+    .container{
+        width: 90%;
+    }
+
+    .brochuone{
+        margin-top: 10px;
+    }
+
+    .endsec h1{
+        font-size: 28px;
+        right:26%;
+    }
+
+    /* .bancont{
+        height: 64vh;
+    } */
+}
+
+@media(max-width:992px){
+
+    .container{
+        width: 90%;
+    }
+
+    h4{
+        font-size: 14px;
+    }
+
+    .brochuone{
+        margin-top: 30px;
+    }
+
+    .endsec{
+        margin-top: 0px;
+    }
+
+    .brochutxt h1{
+        font-size: 20px;
+    }
+
+    .endsec h1{
+        font-size: 30px;
+        top: 23%;
+        left: 125px;
+    }
+    .endsec p{
+        font-size: 18px;
+    }
+
+}
+
+
+@media (max-width:767px){
+
+    .container{
+        width: 90%;
+    }
+
+    .bluecard{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .blue{
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .cyber{
+        padding-bottom: 155px;
+    }
+
+    .cyber h4{
+        font-size: 24px;
+    }
+    
+
+    h1{
+        font-size: 23px;
+    }
+
+    .opratxtimg{
+        padding-top: 20px;
+    }
+
+    .opratxtimg .row{
+        flex-direction: column-reverse;
+    }
+
+    .oprat{
+        padding-top: 20px;
+    }
+
+    .oprat2{
+        padding: 0px 0px;
+    }
+
+    .oprat2 h4{
+        font-size: 24px;
+    }
+
+    .shield img{
+        padding-top: 30px;
+    }
+
+    .shield-txt{
+        padding: 0px;
+    }
+
+    .brochuone{
+        margin-top: 30px;
+    }
+    .endsec{
+        margin-top: 0px;
+    }
+
+    .endsec p{
+        font-size: 12px;
+    }
+
+    .endsec h1{
+        font-size: 24px;
+        top: 21%;
+        right: 21%;
+    }
+}
+
+@media (max-width:576px){
+
+    .endsec h1{
+        font-size: 19px;
+        top: 33px;
+        left: 60px;
+    }
+
+    .endsec p{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:414px){
+    .endsec h1{
+        font-size: 16px;
+        top: 11px;
+        left: 51px;
+    }
+    .endsec p{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:375px){
+    .endsec h1{
+        font-size: 16px;
+        top: 11px;
+        left: 51px;
+    }
+    .endsec p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:300px){
+    .endsec h1{
+        font-size: 10px;
+        top: 11px;
+        left: 37px;
+    }
+
+    .endsec p{
+        font-size: 11px;
+    }
+
+}
+
+    
