@@ -22,9 +22,9 @@ h4{
     color: #ffffff;
 }
 
-.logo{
-    padding-top: 15px;
-    padding-bottom: 15px;
+.logo img{
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 .bold{
@@ -127,6 +127,11 @@ h4{
     float: right;
     padding-bottom: 29px;
 }
+
+.cenimg img{
+    width: 100%;
+}
+
 .bluecard{
     margin-top: 54px;
     display: flex;
@@ -362,7 +367,7 @@ hr{
     
 
     h1{
-        font-size: 23px;
+        font-size: 20px;
     }
 
     .opratxtimg{
@@ -421,6 +426,26 @@ hr{
 
     .endsec p{
         font-size: 30px;
+    }
+}
+
+@media (max-width:540px){
+    .cenimg img{
+        width: 100%;
+
+    }
+
+    .endsec h1{
+        top: 25px;
+    }
+
+}
+
+@media (max-width:430px){
+    .endsec h1{
+        font-size: 16px;
+        top: 11px;
+        left: 51px;
     }
 }
 
