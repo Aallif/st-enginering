@@ -30,7 +30,7 @@ h4{
 .bold{
     font-size: 17px;
     font-weight: 700;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 
@@ -49,7 +49,7 @@ h4{
 }
 
 .bancont{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,6 +61,7 @@ h4{
 
 .oprat{
     padding-top: 82px;
+    margin: 0px 11px;
 }
 
 .opratxtimg{
@@ -88,7 +89,7 @@ h4{
 
 .cyber{
     background-image: url("/assets/images/cyber-bg.jpg");
-    width: 100%;
+    /* width: 100%; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -104,7 +105,7 @@ h4{
 }
 
 .cyber h4{
-    font-size: 14px;
+    font-size: 22px;
     color:#ffffff;
     bottom: 22px;
     padding-top: 11px;
@@ -178,39 +179,56 @@ h4{
 } */
 .num{
     display: inline-block;
-    padding-top: 34px;
+    /* padding-top: 34px; */
     /* padding-left: 30px; */
     /* padding-bottom: 36px; */
 }
 
 
 .brochutxt .num h1{
+    padding-right: 10px;
     font-size: 28px;
     font-weight: 400;
     color: #dbd7d4;
 }
-hr{
+/* hr{
     margin: 0;
     display: inline-block;
     width: 41px;
     height: 2px;
     color: #dbd7d4;
     opacity: 1;
+} */
+
+
+.line4{
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background-color:#dbd7d4;
+    opacity: 1;
+
 }
+
 
 .bropcont{
     padding-left: 40px;
+    padding-top: 34px;
+    padding-bottom: 27px;
     border: 1px solid;
-    border-left: hidden;
-    border-right: hidden;
     border-bottom: hidden;
     color: #dbd7d4;
 
 }
 
-.brocont{
+.brocont {
     color: #07244b;
 }
+
+.brocont h1{
+    padding-top: 5px;
+}
+
 
 .brochutxt{
     margin-top: 54px;
@@ -218,7 +236,7 @@ hr{
 .brochutxt h1{
     font-size: 22px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .col-md-4{
@@ -226,7 +244,7 @@ hr{
 }
 
 .brochuone{
-    margin-top: 112px;
+    margin-top: 109px;
 
 }
 
@@ -275,8 +293,6 @@ hr{
 
 .footer{
     margin-top: 134px;
-    font-size: 43px;
-    font-weight: 400;
     text-align: center;
     color: #07244b;
     background-color: #e6e9ed;
